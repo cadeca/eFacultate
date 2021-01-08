@@ -1,0 +1,12 @@
+<div [matMenuTriggerFor]="menu" class="profile">
+  <h6 *ngIf="username">{{ username }}</h6>
+  <mat-icon
+    class="icon">
+    person
+  </mat-icon>
+<!--  <img [src]="image" class="image-container round-border">-->
+</div>
+<mat-menu #menu="matMenu">
+  <button mat-menu-item (click)="navigateToSettingsPage()"> {{ 'header.settings' | translate}}</button>
+<!--  <button mat-menu-item (click)="logout()"> {{ 'header.logout' | translate}} </button>-->
+</mat-menu>

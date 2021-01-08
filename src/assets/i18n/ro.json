@@ -1,0 +1,16 @@
+{
+  "general": {
+    "name": "Nume",
+    "code": "Cod",
+    "semester": "Semestru",
+    "description": "Descriere",
+    "save": "Save",
+    "dragAndDropFile": "Adăugați fișier cu drag & drop",
+    "or": "sau",
+    "click": "dați click"
+  },
+  "header": {
+    "settings": "Settings",
+    "logout": "Logout"
+  }
+}

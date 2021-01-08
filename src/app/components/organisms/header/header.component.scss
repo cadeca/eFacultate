@@ -1,0 +1,18 @@
+@import "src/assets/style/variables";
+
+.header {
+  height: $wl-header-height;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: $elevation-shadow-teal-12px;
+  position: relative;
+  z-index: 2;
+
+  .title:hover {
+    cursor: pointer;
+  }
+}
+
+.right-side-container {
+  display: flex;
+}

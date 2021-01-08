@@ -1,0 +1,22 @@
+{
+  "/api": {
+    "target": "http://0.0.0.0:2020",
+    "host": "http://0.0.0.0:2020",
+    "logLevel": "info",
+    "secure": true,
+    "changeOrigin": true,
+    "pathRewrite": {
+      "^/proxy": ""
+    }
+  },
+  "/api/*": {
+    "target": "http://0.0.0.0:2020",
+    "host": "http://0.0.0.0:2020",
+    "logLevel": "info",
+    "secure": true,
+    "changeOrigin": true,
+    "pathRewrite": {
+      "^/proxy": ""
+    }
+  }
+}

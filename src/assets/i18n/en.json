@@ -1,0 +1,16 @@
+{
+  "general": {
+    "name": "Name",
+    "code": "Code",
+    "semester": "Semester",
+    "description": "Description",
+    "save": "Save",
+    "dragAndDropFile": "Drag and drop a file",
+    "or": "or",
+    "click": "click"
+  },
+  "header": {
+    "settings": "Settings",
+    "logout": "Logout"
+  }
+}
